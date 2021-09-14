@@ -1,20 +1,12 @@
 #ifndef Part3_h
 #define Part3_h
 
-int sum(int x, int y) {
-    return x + y;
-}
+extern int sum(int x, int y);
 
-double half(double x) {
-    return x / 2;
-}
+extern double half(double x);
 
-char capitalize(char x) {
-    return x - 32;
-}
+extern char capitalize(char x);
 
-float irrational(float x) {
-    return x * 2.00;
-}
+extern float irrational(float x);
 
 #endif
