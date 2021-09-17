@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Defining the sum, half, capitalize, and irrational functions.
 int sum(int x, int y) {
     cout << "sum, int x, int y, int" << endl;
     return x + y;
